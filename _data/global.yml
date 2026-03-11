@@ -1,7 +1,7 @@
 # Site Settings
 title: 'RobotJS'
 description: 'Node.js Cross Platform Desktop Automation. Control the mouse, keyboard, and read the screen.'
-url: '//robotjs.io' # the base hostname & protocol for your site
+url: '//robotjs.dev' # the base hostname & protocol for your site
 repo_url: 'https://github.com/octalmage/robotjs.io'
 footer_text: 'Licensed under MIT.'
 
