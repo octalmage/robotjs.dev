@@ -2,7 +2,7 @@
 
 The official site for [RobotJS](https://github.com/octalmage/robotjs).
 
-[http://robotjs.dev](http://robotjs.dev)
+[https://robotjs.dev](https://robotjs.dev)
 
 ## Contributing
 
