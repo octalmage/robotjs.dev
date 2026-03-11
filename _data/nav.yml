@@ -1,5 +1,4 @@
 main:
     - { url: '/', text: 'Home' }
     - { url: '/docs/', text: 'Docs' }
-    - { url: 'http://blog.robotjs.io', text: 'Blog' }
     - { url: 'https://github.com/octalmage/robotjs', text: 'Fork on GitHub' }
