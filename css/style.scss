@@ -366,3 +366,164 @@ table tr th :last-child, table tr td :last-child {
         pointer-events: none;
     }
 }
+
+:root {
+    color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        color-scheme: dark;
+    }
+
+    body {
+        color: #e6edf3;
+        background-color: #0d1117;
+    }
+
+    a {
+        color: #58a6ff;
+
+        &:hover,
+        &:focus {
+            color: #79c0ff;
+        }
+    }
+
+    .text-muted,
+    aside {
+        color: #9da7b3;
+    }
+
+    hr,
+    blockquote {
+        border-color: #30363d;
+    }
+
+    .navbar-default {
+        background-color: #161b22;
+        border-color: #30363d;
+
+        .navbar-brand,
+        .navbar-nav > li > a {
+            color: #c9d1d9;
+
+            &:hover,
+            &:focus {
+                color: #f0f6fc;
+                background-color: #21262d;
+            }
+        }
+
+        .navbar-nav > .active > a,
+        .navbar-nav > .active > a:hover,
+        .navbar-nav > .active > a:focus {
+            color: #f0f6fc;
+            background-color: #21262d;
+        }
+
+        .navbar-toggle {
+            border-color: #484f58;
+
+            &:hover,
+            &:focus {
+                background-color: #21262d;
+            }
+
+            .icon-bar {
+                background-color: #c9d1d9;
+            }
+        }
+
+        .navbar-collapse {
+            border-color: #30363d;
+        }
+    }
+
+    .navbar-brand img,
+    h1.special img {
+        background-color: transparent;
+        border-radius: 0;
+        box-shadow: none;
+        filter:
+            brightness(0)
+            invert(1)
+            drop-shadow(0 0 0 #fff)
+            drop-shadow(0 0 0 #fff);
+    }
+
+    nav.navbar .navbar-brand img {
+        height: 24px;
+    }
+
+    h1.special span {
+        background-color: #0d1117;
+
+        &:before,
+        &:after {
+            background-color: #30363d;
+        }
+    }
+
+    code {
+        color: #ff7b72;
+        background-color: #161b22;
+    }
+
+    pre,
+    .highlight,
+    .highlight pre {
+        color: #e6edf3;
+        background-color: #161b22;
+        border-color: #30363d;
+    }
+
+    pre code {
+        color: inherit;
+        background-color: transparent;
+    }
+
+    .highlight {
+        .c, .cm, .c1, .cs, .cp { color: #8b949e; }
+        .k, .kc, .kd, .kp, .kr, .kt, .ow { color: #ff7b72; }
+        .m, .mf, .mh, .mi, .mo, .il { color: #79c0ff; }
+        .s, .sb, .sc, .sd, .s2, .se, .sh, .si, .sx, .sr, .s1, .ss { color: #a5d6ff; }
+        .na, .nb, .bp { color: #ffa657; }
+        .nc, .nf, .ne { color: #d2a8ff; }
+        .no, .nv, .vc, .vg, .vi { color: #7ee787; }
+        .nn, .nt { color: #7ee787; }
+        .err, .gr, .gt { color: #ffa198; background-color: transparent; }
+        .gd { color: #ffdcd7; background-color: #67060c; }
+        .gi { color: #aff5b4; background-color: #033a16; }
+        .gh, .gu { color: #8b949e; }
+        .go, .gp { color: #c9d1d9; }
+    }
+
+    table tr {
+        background-color: #0d1117;
+        border-color: #30363d;
+    }
+
+    table tr:nth-child(2n) {
+        background-color: #161b22;
+    }
+
+    table tr th,
+    table tr td {
+        border-color: #30363d;
+    }
+
+    .nav > li > a:hover,
+    .nav > li > a:focus {
+        background-color: #161b22;
+    }
+
+    .tile {
+        background-color: #161b22;
+        box-shadow: 0 0.15em 0.35em 0 rgba(0, 0, 0, 0.5);
+
+        .excerpt {
+            color: #c9d1d9;
+        }
+    }
+}
