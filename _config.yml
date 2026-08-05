@@ -42,9 +42,9 @@ timezone:      null
 quiet:    false
 defaults: []
 
-gems:
+plugins:
   - jekyll-sitemap
-
+  - jekyll-paginate
 # Markdown Processors
 rdiscount:
   extensions: []
